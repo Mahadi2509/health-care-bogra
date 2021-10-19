@@ -55,7 +55,7 @@ const Login = () => {
                     <input className="login-btn" type="submit" value="Login" />
                 </form>
 
-                <div>---------------- or ---------------</div>
+                <div>------------- or -------------</div>
                 <div>
                     <p>You have no account? <Link to="/register">Create account</Link></p>
                     <button onClick={handleGoogleLogin} className="login-btn">Google Sign In</button>

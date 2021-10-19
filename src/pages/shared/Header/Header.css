@@ -1,5 +1,5 @@
 .header-container{
-    background-image: linear-gradient(to right,rgb(85, 84, 84),rgb(102, 85, 50));
+    background-image: linear-gradient(to right,rgb(95, 77, 77),rgb(117, 88, 30));
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -45,4 +45,25 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+@media only screen and (max-width:668px) {
+    .header-container{
+        display: block;
+        padding-left: 5px;
+    }
+    .menu{
+        margin-top: 10px;
+    }
+    .menu a{
+    padding:0 11px 0 0;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    }
+    .btn-section{
+        margin-top: 10px;
+        margin-left: 150px;
+    }
 }

@@ -28,14 +28,16 @@ const Header = () => {
                 <Link to="/about">About Us</Link>
                 <Link to="/contact">Contact Us</Link>
             </div>
-            <div className="d-flex align-items-center">
+            <div className="d-flex align-items-center login-container">
                 {
                     user?.email && <p className="mt-3 text-white">{user?.displayName}</p>
                 }
-                {
-                    user?.email ? <a onClick={handleLogOut} className="log-btn">Log Out</a> :
-                        <a onClick={handleLogIn} className="log-btn">Log In / Register</a>
-                }
+                <p className="btn-section mt-3">
+                    {
+                        user?.email ? <a onClick={handleLogOut} className="log-btn">Log Out</a> :
+                            <a onClick={handleLogIn} className="log-btn">Log In / Register</a>
+                    }
+                </p>
             </div>
         </div>
     );

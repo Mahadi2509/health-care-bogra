@@ -1,0 +1,14 @@
+.services-container{
+    width: 90%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+}
+
+
+@media only screen and (max-width:668px) {
+    .services-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

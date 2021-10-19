@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "name": "Physical Therapy",
+        "img": "https://www.hurleymc.com/images/banners/physical-therapy.jpg",
+        "price": 5200,
+        "discription": "The skilled team of physical therapy professionals at Hurley Medical Center offers Physical, Occupational and Speech Therapy for almost any situation. Whether you’re injured on the field or off, recovering from surgery, living with a disability or illness–or maybe you just moved the wrong way–our end game is to get you back to doing what you love while bringing your highest functional goals within reach."
+    },
+    {
+        "id": 2,
+        "name": "Diabetes",
+        "img": "https://www.hurleymc.com/images/banners/diabetes.jpg",
+        "price": 2400,
+        "discription": "Hurley Medical Center’s Diabetes Education Program is the largest in Genesee County. These programs are recognized by the American Diabetes Association and certified by the Michigan Department of Community Health as quality self-management diabetes education programs."
+    },
+    {
+        "id": 3,
+        "name": "Radiology",
+        "img": "https://www.hurleymc.com/images/banners/radiology.jpg",
+        "price": 3600,
+        "discription": "The Radiology Department at Hurley Medical Center offers some of the most advanced diagnostic imaging techniques and interventional radiologic procedures available in Michigan and across the country. Each year, we perform more than 125,000 procedures, of which approximately 3,500 are interventional procedures."
+    },
+    {
+        "id": 4,
+        "name": "Heart & Vascular",
+        "img": "https://www.hurleymc.com/images/banners/heart-and-vascular.jpg",
+        "price": 4500,
+        "discription": "Just as your heart works tirelessly to pump blood throughout your body, the heart and vascular team at Hurley Heart Center will work to evaluate your condition and recommend the best treatment and rehabilitation options. Our staff specializes in diagnosing, treating and preventing heart disease, offering seamless and coordinated care to help heart patients lead longer, fuller lives."
+    },
+    {
+        "id": 5,
+        "name": "Stroke Center",
+        "img": "https://www.hurleymc.com/images/banners/stroke-center.jpg",
+        "price": 3900,
+        "discription": "Hurley Medical Center is designated a Primary Stroke Center by the Joint Commission. This reflects our dedication to providing our patients with the highest quality stroke care focused on current scientific research and continued improvements in treatment. Having this designation allows us to fulfill our mission of providing exceptional stroke care to our patients and educating the communities we serve."
+    },
+    {
+        "id": 6,
+        "name": "Orthopedics",
+        "img": "https://www.hurleymc.com/images/banners/orthopedics.jpg",
+        "price": 4800,
+        "discription": "Hurley’s Orthopedic services provide patients with the region’s best specialists, offering diagnosis, treatment, surgical services and rehabilitation at the highest level. Our state-of-the-art treatment, including educational, support and rehabilitation services, leads to faster recovery and positive long-term outcomes."
+    },
+    {
+        "id": 7,
+        "name": "Lung Center",
+        "img": "https://www.hurleymc.com/images/banners/lung-center.jpg",
+        "price": 7500,
+        "discription": "Lung Cancer is by far the leading cause of cancer deaths among both men and women. Each year, more people die of Lung Cancer than of colon, breast, and prostate cancers combined.The key is early detection.The Hurley Lung Center is dedicated to the prevention, early detection and treatment of diseases of the lung. Our Team of Board Certified Multidisciplinary Physicians all work together to diagnose and treat lung diseases."
+    },
+    {
+        "id": 8,
+        "name": "Emergent Services",
+        "img": "https://www.hurleymc.com/images/banners/emergent.jpg",
+        "price": 9600,
+        "discription": "The Paul F. Reinhart Emergency Trauma Center at Hurley Medical Center delivers the highest quality of adult and pediatric emergency and trauma care in the region. With a highly skilled staff that includes E.R. physicians provided by the University of Michigan, Hurley features the region’s only Level I Trauma Center and Level II Pediatric Trauma Center (the highest designations possible), offering the most comprehensive care in the area to all adults and children."
+    },
+    {
+        "id": 9,
+        "name": "Cancer Service",
+        "img": "https://www.hurleymc.com/images/banners/cancer-care.jpg",
+        "price": 64000,
+        "discription": "At Hurley Medical Center, we are committed to providing the most advanced cancer treatment services, technologies and programs available, combined with educational and support services, that together lead to faster recovery and positive long-term outcomes."
+    },
+    {
+        "id": 10,
+        "name": "Digestive Health",
+        "img": "https://digestivecarephysicians.com/wp-content/uploads/2019/05/Digestive-Health-Problems.png",
+        "price": 2400,
+        "discription": "University Hospitals Digestive Health Institute is a national leader in the prevention, diagnosis and treatment of digestive and liver diseases. U.S. News & World Report consistently ranks our program as one of the best in the country for treating digestive and liver disorders such as gastroesophageal reflux, inflammatory bowel disease, celiac disease, and liver, pancreatic and colorectal cancers."
+    },
+    {
+        "id": 11,
+        "name": "Pediatric Service",
+        "img": "https://www.sakrapremiumclinic.com/sakraclinic-admin/assets/images/paediatrics-mob-banner.jpg",
+        "price": 5600,
+        "discription": "University Hospitals Rainbow Babies & Children’s has the region’s largest coordinated network of pediatric primary care providers, committed to delivering the very best care to babies, children and adolescents."
+    }
+]

@@ -1,0 +1,20 @@
+
+h1{
+    text-align: center;
+    color: grey;
+    margin-top: 50px;
+    font-weight: 700;
+}
+.doctors-container{
+    width: 90%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+
+@media only screen and (max-width:668px) {
+    .doctors-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

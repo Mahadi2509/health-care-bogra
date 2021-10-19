@@ -1,0 +1,11 @@
+.doctor{
+    text-align: center;
+}
+.doctor img{
+    width: 50%;
+border-radius: 50% 35%;
+margin-bottom: 5px;
+}
+.doctor h3,p{
+    color: gray;
+}

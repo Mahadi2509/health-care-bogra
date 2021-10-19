@@ -1,0 +1,32 @@
+.header-container{
+    background-image: linear-gradient(to right,gray,orange);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+}
+.logo h2{
+    color:white;
+    margin-left: 10px;
+    font-size: 28px;
+}
+.menu a{
+    padding: 10px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.menu a:hover{
+    background-color: black;
+    border-radius: 50px 30px;
+}

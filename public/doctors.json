@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Madar Abed",
+        "gender": "Male",
+        "img": "https://i.ibb.co/2hvcGFY/doctor1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Reena Ahluwalia",
+        "gender": "Female",
+        "img": "https://i.ibb.co/qrYBZcB/doctor4.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Mostafa I Abuzeid",
+        "gender": "Male",
+        "img": "https://i.ibb.co/q1n4CDg/doctor3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Nada Abdelbasit",
+        "gender": "Female",
+        "img": "https://i.ibb.co/NCVRTRY/doctor5.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Paul T Adams",
+        "gender": "Male",
+        "img": "https://i.ibb.co/g38ShpW/doctor2.jpg"
+    }
+]

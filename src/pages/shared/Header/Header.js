@@ -30,11 +30,11 @@ const Header = () => {
             </div>
             <div className="d-flex align-items-center">
                 {
-                    user?.email && user?.photoURL ? <img className="user-img" src={user.photoURL} alt="" /> : <p className="mt-3 text-white">{user.displayName.slice(0, 6)}</p>
+                    user?.email && <p className="mt-3 text-white">{user?.displayName}</p>
                 }
                 {
                     user?.email ? <a onClick={handleLogOut} className="log-btn">Log Out</a> :
-                        <a onClick={handleLogIn} className="log-btn">Log In</a>
+                        <a onClick={handleLogIn} className="log-btn">Log In / Register</a>
                 }
             </div>
         </div>

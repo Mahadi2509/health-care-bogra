@@ -1,5 +1,5 @@
 .header-container{
-    background-image: linear-gradient(to right,gray,orange);
+    background-image: linear-gradient(to right,rgb(85, 84, 84),rgb(102, 85, 50));
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -32,7 +32,7 @@
 }
 .log-btn{
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     color: white;
     font-weight: 700;

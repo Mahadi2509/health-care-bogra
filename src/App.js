@@ -5,6 +5,8 @@ import Doctors from './pages/Doctors/Doctors';
 import Home from './pages/Home/Home/Home';
 import Login from './pages/Login/Login/Login';
 import Register from './pages/Login/Register/Register';
+import NotFound from './pages/NotFound/NotFound';
+import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
 import Footer from './pages/shared/Footer/Footer';
 import Header from './pages/shared/Header/Header';
 import View from './pages/View/View';
@@ -22,13 +24,16 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/view/:serviceId">
+            <PrivateRoute path="/view/:serviceId">
               <View></View>
-            </Route>
-            <Route path="/doctors">
+            </PrivateRoute>
+            <PrivateRoute path="/doctors">
               <Doctors></Doctors>
-            </Route>
+            </PrivateRoute>
             <Route path="/about">
+
+            </Route>
+            <Route path="/contact">
 
             </Route>
             <Route path="/login">
@@ -38,7 +43,7 @@ function App() {
               <Register></Register>
             </Route>
             <Route path="*">
-
+              <NotFound></NotFound>
             </Route>
           </Switch>
           <Footer></Footer>

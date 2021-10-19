@@ -8,7 +8,7 @@ const Service = ({ service }) => {
     const history = useHistory();
 
     const handleFullDetails = () => {
-        history.push(`/viwe/${id}`)
+        history.push(`/view/${id}`)
     }
 
     return (

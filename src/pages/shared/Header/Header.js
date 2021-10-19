@@ -3,15 +3,17 @@ import './Header.css';
 import logo from '../../../images/logo.jpg';
 import { Link } from 'react-router-dom';
 import { useHistory } from 'react-router';
+import useAuth from '../../../hooks/useAuth';
 
 const Header = () => {
     const history = useHistory();
+    const { user, logOut } = useAuth();
 
     const handleLogIn = () => {
         history.push('/login');
     }
     const handleLogOut = () => {
-
+        logOut();
     }
 
     return (
@@ -26,9 +28,14 @@ const Header = () => {
                 <Link to="/about">About Us</Link>
                 <Link to="/contact">Contact Us</Link>
             </div>
-            <div>
-                <button onClick={handleLogIn} className="log-btn">Log In</button>
-                <button onClick={handleLogOut} className="log-btn">Log Out</button>
+            <div className="d-flex align-items-center">
+                {
+                    user?.email && user?.photoURL ? <img className="user-img" src={user.photoURL} alt="" /> : <p className="mt-3 text-white">{user.displayName.slice(0, 6)}</p>
+                }
+                {
+                    user?.email ? <a onClick={handleLogOut} className="log-btn">Log Out</a> :
+                        <a onClick={handleLogIn} className="log-btn">Log In</a>
+                }
             </div>
         </div>
     );

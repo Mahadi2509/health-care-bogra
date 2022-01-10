@@ -1,5 +1,5 @@
 .footer-container{
-    background-color: rgb(41, 37, 37);
+    background-color: rgb(82, 82, 82);
     padding-top: 40px;
 }
 .footer-btn a{
@@ -9,9 +9,10 @@
 }
 .footer-btn a:hover{
     text-decoration: underline;
+    color: rgb(224, 169, 28);
 }
 .fab{
-    color:cadetblue;
+    color:rgb(152, 220, 224);
 }
 
 @media only screen and (max-width:668px) {
